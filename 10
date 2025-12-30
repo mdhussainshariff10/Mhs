@@ -1,0 +1,13 @@
+mkdir myproject
+cd myproject
+git init
+echo Hello > file.txt
+git add file.txtgit commit -m "First commit" --author="john <john@gmail.com>"
+git log --author="john" --since="2023-01-01" --until="2023-12-31"
+
+
+
+
+
+to list all authors list
+git log --format="%aN"
